@@ -6,9 +6,9 @@ window.addEventListener("load",()=>
     updatedata();
 });
 const searchbox=document.querySelector(".search-box");
-searchbox.addEventListener('keypress',(evt) =>
+searchbox.addEventListener('keypress',(event) =>
 {
-    if(evt.keyCode==13)
+    if(event.keyCode==13)
     {
         // alert("hii")
         getResults(searchbox.value);
