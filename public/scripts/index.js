@@ -79,9 +79,9 @@ function updateweather(info)
     let locinfo=cityy+' , '+country;
     tempe=Math.floor(temp-273);
     city.innerHTML=locinfo;
-    temphtml.innerHTML=tempe+' C';
+    temphtml.innerHTML=tempe+'&#176;C';
     weather.innerHTML=description;  
-    highlow.innerHTML=Math.floor(temp_min-273)+"c / "+Math.floor(temp_max-273)+"c";  
+    highlow.innerHTML=Math.floor(temp_min-273)+"&#176;C / "+Math.floor(temp_max-273)+"&#176;C";  
     updatedateandtime();
 }
 function updatedateandtime()
